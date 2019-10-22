@@ -1,5 +1,8 @@
 import React from "react";
+import display from "../../../design-files/component-calculator.png";
 
 const Display = () => {
-  return <div className="display">{/* Display any props data here */}</div>;
+  return <div className="display">
+  <img className="display" src={display} alt="Calculator Body?" />
+  {display}</div>;
 };
