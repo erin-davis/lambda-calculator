@@ -1,4 +1,4 @@
-import React, {useState} from "react";
+import React, {useState, useEffect} from "react";
 import {numbers} from "../../../data.js";
 import NumberButton from "./NumberButton.js";
 //import any components needed
@@ -11,6 +11,7 @@ import { numbers } from '../../../data'
 export const Numbers = () => {
   //const [numberState, setNumberState] = useState(0);
   // STEP 2 - add the imported data to state
+  //const thatNumber =
 
   return (
     <div>
